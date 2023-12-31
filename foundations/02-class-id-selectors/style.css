@@ -1,0 +1,25 @@
+* {
+  * font-family: sans-serif, monospace;
+   }
+
+p {
+  color: black;
+  background-color: #fea7a6;
+  font-family:sans-serif, monospace;
+  font-size: 20px;
+}
+
+div {
+  font-family: sans-serif, monospace;
+}
+
+div.blueFont {
+  font-size: 40px;
+  color: blue;
+}
+
+div.greenBg {
+  font-size: 30px;
+  background-color: #81ff81;
+  font-weight: bold;
+}
