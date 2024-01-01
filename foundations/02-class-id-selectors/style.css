@@ -1,25 +1,21 @@
 * {
-  * font-family: sans-serif, monospace;
-   }
-
-p {
+  font-family: Verdana, "DejaVu Sans", sans-serif;
   color: black;
-  background-color: #fea7a6;
-  font-family:sans-serif, monospace;
-  font-size: 20px;
+  }
+
+.pinkBg {
+  background-color: #fea7a6
 }
 
-div {
-  font-family: sans-serif, monospace;
-}
-
-div.blueFont {
-  font-size: 40px;
+#blueFont {
   color: blue;
+  font-size: 36px;
 }
 
-div.greenBg {
-  font-size: 30px;
-  background-color: #81ff81;
-  font-weight: bold;
+.bigFont {
+  font-size: 24px;
+}
+
+.greenBg {
+  background-color: #a6fea7;
 }
