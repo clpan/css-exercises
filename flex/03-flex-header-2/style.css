@@ -46,3 +46,49 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* added changes */
+/* unsure about the changes of 16px and 8px, whether the space should be placed on the vertical or horizontal side */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 8px;
+}
+
+.logo,
+.links,
+.notifications,
+.profile-image {
+  padding: 0px;
+}
+
+
+.logo {
+  margin-left: 8px;
+}
+
+.links {
+  list-style: none;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: 0px;
+}
+
+
+.notifications {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.profile-image {
+  margin-right: 16px;
+  margin-left: 16px;
+}

@@ -1,6 +1,10 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -11,10 +15,17 @@
   padding: 4px 32px;
 }
 
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;   /* this makes the links horizontal, otherwise the items will stack on top of each other. This overrides the default behavior of ul */
+  gap: 8px;
+  padding: 0;   /* this removes the default padding on the ul */
+  margin: 0;   /* this removes the default margin on the ul */
+
 }
+
 
 a {
   font-size: 22px;
@@ -23,3 +34,5 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
